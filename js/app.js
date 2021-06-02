@@ -124,7 +124,7 @@ function mostrarTop(criptomonedas){
             <td class="p-2 text-right">${HIGHDAY}</td>
             <td class="p-2 text-right">${LOWDAY}</td>
             <td class="p-2 text-right">${LASTUPDATE}</td>
-            <td class="p-2 text-right porcentaje"><</td>
+            <td class="p-2 text-right">${CHANGEPCT24HOUR}</td>
             `;
             
             tableCrypto.appendChild(tr)
